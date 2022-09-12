@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl_for_project1.xsl"?>
+<base>
+    <establishment_addresses>
+        <address>Санкт-Петербург, Вознесенский проспект, д. 11</address>
+        <address>Санкт-Петербург, ул. Арсенальная, д. 8</address>
+    </establishment_addresses>
+    <menu>
+        <dishes>
+            <dish id = "di1">
+                <dish_description>
+                    <name>Борщ</name>
+                    <price>600 руб</price>
+                    <discount>0%</discount>
+                    <grams>320 гр</grams>
+                    <section>Супы</section>
+                    <calories>26 кКал</calories>
+                    <fats>23 гр</fats>
+                    <proteins>12 гр</proteins>
+                    <carbohydrates>80 гр</carbohydrates>
+                    <ingredients>...</ingredients>
+                    <cooking_time>12 мин</cooking_time>
+                    <average_rating>4,2</average_rating>
+                </dish_description>
+                <reviews>
+                    <client-id> </client-id>
+                    <evaluation> </evaluation>
+                    <review-body> </review-body>
+                </reviews>
+            </dish>
+        </dishes>
+        <drinks>
+            <drink id = "dr1">
+                <drink_description>
+                    <name>Клюквенный морс</name>
+                    <price>120 руб</price>
+                    <discount>5%</discount>
+                    <calories>12 кКал</calories>
+                    <fats>0 гр</fats>
+                    <proteins>8 гр</proteins>
+                    <carbohydrates>6 гр</carbohydrates>
+                    <volume>220 л</volume>
+                    <ingredients>...</ingredients>
+                    <average_rating>4,8</average_rating>
+                </drink_description>
+                <reviews>
+                    <client-id> </client-id>
+                    <evaluation> </evaluation>
+                    <review-body> </review-body>
+                </reviews>
+            </drink>
+        </drinks>
+    </menu>
+
+    <clients>
+        <client id = "c1">
+            <full_name>Новиков Пётр Александрович</full_name>
+            <bonuses>300</bonuses>
+            <email>unnio@mail.ru</email>
+            <password></password>
+            <date_of_birth>12.08.1987</date_of_birth>
+            <phone_number>8 950 484 62 44</phone_number>
+            <address>Санкт-Петербург, ул. Даля, д. 21</address>
+            <favorites>
+                <dishes_in_favorites>
+                    <dish-id> </dish-id>
+                </dishes_in_favorites>
+                <drinks_in_favorites>
+                    <drink-id> </drink-id>
+                </drinks_in_favorites>
+            </favorites>
+        </client>
+    </clients>
+    <staff>
+        <employee id = "e1">
+            <full_name>Давыдов Валентин Сергеевич</full_name>
+            <post>Повар</post>
+            <salary>68000 руб</salary>
+            <date_of_birth>12.08.1988</date_of_birth>
+            <phone_number>8 950 569 55 98</phone_number>
+            <address>Санкт-Петербург, ул. Ленина, д. 49</address>
+        </employee>
+    </staff>
+    <tables>
+        <table id="t1">
+            <number>1</number>
+            <description>У окна</description>
+            <number_of_seats>5</number_of_seats>
+            <table_is_free>Свободен</table_is_free>
+        </table>
+        <table id="t2">
+            <number>2</number>
+            <description>У окна</description>
+            <number_of_seats>3</number_of_seats>
+            <table_is_free>Занят</table_is_free>
+        </table>
+    </tables>
+    <booking>
+        <reservation>
+            <table_id> </table_id>
+            <client-id> </client-id>
+            <date_and_time> </date_and_time>
+        </reservation>
+    </booking>
+    <orders>
+        <order>
+            <client-id> </client-id>
+            <table_id> </table_id>
+            <dishes_in_order>
+                <dish-id> </dish-id>
+            </dishes_in_order>
+            <drinks_in_order>
+                <drink-id> </drink-id>
+            </drinks_in_order>
+            <value> </value>
+        </order>
+    </orders>
+</base>
